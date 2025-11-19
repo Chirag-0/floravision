@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+
+@layer components{
+
+  .structure {
+    @apply relative w-72 sm:w-80 g-white/5 backdrop-blur-[17px] border rounded-[5rem] border-white/10 shadow-lg p-8;
+  }
+}
