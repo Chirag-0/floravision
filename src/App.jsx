@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import OurBest from "./components/OurBest"
 import SellingPlants from "./components/SellingPlants"
-import TrendyPlants from "./components/TrendyPlants"
+
 
 
 function App() {

@@ -9,26 +9,26 @@ function Footer() {
             </div>
             <p className="text-wrap w-66 px-2 text-xs font-medium inter">"From lush indoor greens to vibrant outdoor blooms, our plants are crafted to thrive and elevate your living environment."</p>
             <div className="flex gap-3  font-bold m-2 mt-10 text-sm">
-              <span>FB</span>
-              <span>TW</span>
-              <span>LI</span>
+              <span className="cursor-pointer hover:scale-105">FB</span>
+              <span className="cursor-pointer hover:scale-105">TW</span>
+              <span className="cursor-pointer hover:scale-105">LI</span>
             </div>
          </div>
 
           <div>
               <span className="text-sm font-bold  text-white">Quick Link's</span>
               <div className="text-white flex flex-col font-medium inter text-sm gap-1 mt-3 underline">
-                <span>Home</span>
-                <span>Type’s Of plant’s</span>
-                <span>Contact</span>
-                <span>Privacy</span>
+                <span className="cursor-pointer">Home</span>
+                <span className="cursor-pointer">Type’s Of plant’s</span>
+                <span className="cursor-pointer">Contact</span>
+                <span className="cursor-pointer">Privacy</span>
               </div>
           </div>
           <div className="flex flex-col gap-5 text-white">
               <span className="text-sm font-bold text-white">For Every Update.</span>
               <div className="flex ">
                 <input type="email" placeholder="Enter email" className="px-2 p-1 border-2 rounded-md border-white"/>
-                <button className="bg-white text-black rounded-md text-xs p-1 font-bold">SUBSCRIBE</button>
+                <button className="bg-white text-black rounded-md text-xs p-1 font-bold cursor-pointer">SUBSCRIBE</button>
               </div>
               <div className="md:mt-14 lg:mt-16 text-sm inter font-medium">
                 FloraVision © all right reserve

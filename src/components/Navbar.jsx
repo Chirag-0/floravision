@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Search, Heart, ShoppingCart, Star, ChevronRight } from 'lucide-react';
+import { X } from 'lucide-react';
 
 
 function Navbar() {
@@ -51,11 +51,11 @@ function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <button className="md:hidden cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={24} /> : (
                 <>
-                <div className="flex flex-col gap-1.5 hover:scale-105 transition">
-                    <div className="border w-2 h-0.5 "></div>
+                <div className="flex flex-col gap-1.5 hover:scale-105 transition ">
+                    <div className="border w-2 h-0.5 bg-white"></div>
                     <div className="border-e-5  h-0.5 "></div>
                 </div> 
                </>
@@ -66,16 +66,16 @@ function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden pb-4 space-y-2 indie-flower">
-            <a href="#" className="block py-2 hover:scale-105">
+            <a href="#" className="block py-2 hover:scale-95">
               Home
             </a>
-            <a href="#" className="block py-2 hover:scale-105">
+            <a href="#" className="block py-2 hover:scale-95">
               Plants
             </a>
-            <a href="#" className="block py-2 hover:scale-105">
+            <a href="#" className="block py-2 hover:scale-95">
               About
             </a>
-            <a href="#" className="block py-2 hover:scale-105">
+            <a href="#" className="block py-2 hover:scale-95">
               Contact
             </a>
           </div>

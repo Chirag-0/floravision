@@ -51,7 +51,7 @@ function PlantInfo() {
     <div className="flex gap-12 flex-wrap items-center justify-center p-5 inter">
         {plantInfo.map((plant) => (
             <div className="flex flex-col flex-wrap relative w-62 md:w-80 p-8 bg-white/5 backdrop-blur-[17px] border border-white/14 shadow-lg rounded-[5rem]" key={plant.name}>
-          {/* Plant image (replace src with your image) */}
+
             <div className="-mt-20 z-100 ">
               {plant.name === 'Cactus' ? (
                 <img src={plant.img} alt={plant.name} className="object-cover h-62 w-66"/>
@@ -80,7 +80,6 @@ function PlantInfo() {
                 aria-label="Add to cart"
                 className="w-8 h-8 p-1.5 rounded-lg border border-white/20 flex items-center justify-center text-gray-100 hover:bg-white/5 transition"
               >
-                {/* placeholder for cart icon - replace with svg if you want */}
                 <img src={plant.bag} alt={plant.name} />
               </button>
             </div>

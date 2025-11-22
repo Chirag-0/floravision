@@ -10,7 +10,7 @@ function Hero() {
           
           <div className='flex flex-col gap-6 w-full md:w-1/2 lg:w-[130%] '>
             <div>
-                <h1 className="text-4xl  md:text-6xl  text-nowrap inter font-semibold">
+                <h1 className="text-4xl  md:text-6xl  text-nowrap  font-bold">
                   Earth's Exhale
                 </h1>
                 <p className="text-md mb-1 md:text-lg text-gray-300 inter font-medium">

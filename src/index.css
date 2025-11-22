@@ -4,8 +4,6 @@
 @import "tailwindcss";
 
 
-
-
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -17,21 +15,4 @@
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
-}
-
-.custom-shape-divider-top-1763807715 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-@layer utilities{
-
-  .structure {
-    @apply relative w-72 sm:w-80 bg-white/5 backdrop-blur-[17px] border rounded-[5rem] border-white/10 shadow-lg p-8;
-  }
-
 }
