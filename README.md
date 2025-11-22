@@ -1,7 +1,7 @@
-#FloraVision 
+# FloraVision 
 FloraVision is a modern, responsive frontend web application built with React.js, Vite, and Tailwind CSS.
 
-#Tech Stack
+# Tech Stack
 
 -React.js :– Component-based UI development
 
@@ -13,13 +13,13 @@ FloraVision is a modern, responsive frontend web application built with React.js
 
 -Responsive Web Design
 
-#Installation & Setup
-- Clone the repository
-  git clone https://github.com/Chirag-0/floravision
-  cd floravision
+# Installation & Setup
+--- Clone the repository ---
+-  git clone https://github.com/Chirag-0/floravision.git
+-  cd floravision
 
-- Install the dependencies
-  npm install
+- Install the dependencies:-
+-  npm install
 
-- Run development server
-  npm run dev    
+- Run development server:-
+-  npm run dev    
