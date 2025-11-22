@@ -6,7 +6,7 @@ const plantInfo = [
     name: 'Aglaonema plant',
     bag: '/bag.png',
     price: 'Rs. 599/-',
-    description: 'Aglaonema, commonly known as Chinese Evergreen, is a popular indoor plant known for its attractive foliage and low maintenance requirements. It thrives in low light conditions and is perfect for adding a touch of greenery to indoor spaces.'
+    description: 'Aglaonema, commonly known as Chinese Evergreen, is a popular indoor plant known for its attractive foliage and low maintenance requirements.'
    },
    {
     img: '/rosegold2.png',
@@ -48,17 +48,17 @@ const plantInfo = [
 
 function PlantInfo() {
   return (
-    <div className="flex gap-12 flex-wrap items-center justify-center p-5">
+    <div className="flex gap-12 flex-wrap items-center justify-center p-5 inter">
         {plantInfo.map((plant) => (
-                <div className="flex flex-col flex-wrap relative w-62 md:w-80 g-white/5 backdrop-blur-[17px] border rounded-[5rem] border-white/10 shadow-lg p-8">
+            <div className="flex flex-col flex-wrap relative w-62 md:w-80 p-8 bg-white/5 backdrop-blur-[17px] border border-white/14 shadow-lg rounded-[5rem]" key={plant.name}>
           {/* Plant image (replace src with your image) */}
-          <div className="-mt-20 z-100 ">
-            {plant.name === 'Cactus' ? (
-              <img src={plant.img} alt={plant.name} className="object-cover h-62 w-66"/>
-            ) : (
-            <img src={plant.img} alt={plant.name} className="object-cover"/>
-            )}
-          </div>
+            <div className="-mt-20 z-100 ">
+              {plant.name === 'Cactus' ? (
+                <img src={plant.img} alt={plant.name} className="object-cover h-62 w-66"/>
+              ) : (
+              <img src={plant.img} alt={plant.name} className="object-cover"/>
+              )}
+            </div>
 
           {/* Card content */}
           <div className="relative z-10 mt-2">
