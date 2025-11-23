@@ -3,7 +3,7 @@ import {  Star } from 'lucide-react';
 
 function CustomerReview() {
   return (
-    <section className="bg-[#1B2316] w-full h-[160vh] -mt-1 md:h-[125vh] lg:h-[35vw]">
+    <section className="bg-[#1B2316] w-full h-auto -mt-1 md:h-[125vh] lg:h-[35vw]">
       <div className="inter font-semibold">
         <BracketTitle text="Customer Review" />
       </div>

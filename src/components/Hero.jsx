@@ -3,7 +3,7 @@ import TrendyPlants from './TrendyPlants';
 
 function Hero() {
   return (
-      <section className=" text-white h-[400vh]  sm:h-auto  md:h-[242vh] w-full flex items-center lg:h-[220vh] ">
+      <section className=" text-white min-h-screen  sm:h-auto  md:h-[242vh] w-full flex items-center lg:h-[220vh] ">
     
       <div className="relative  md:w-screen lg:max-w-7xl max-w-7xl mx-auto px-2 md:px-6 lg:px-6 py-12  ">
         <div className="flex p-3 flex-wrap items-center gap-20 md:gap-20 lg:gap-30 justify-center  lg:flex-nowrap">
@@ -53,7 +53,7 @@ function Hero() {
                <img src="/rosegold.png" alt="Featured Plant" loading='lazy' decoding='async' className="h-56 w-56 object-cover rounded-xl z-30" />
             </div>
              
-            <div className="rounded-xl p-6 w-66 h-100 -mt-10 max-w-sm flex flex-col items-center bg-white/5 backdrop-blur-[17px] border border-white/5 shadow-lg" style={{
+            <div className="rounded-xl p-6 w-66 h-100 -mt-10 max-w-sm flex flex-col items-center bg-white/3 backdrop-blur-[17px] border border-white/10 shadow-lg" style={{
               clipPath: "polygon(0% 0%, 26% 10%, 48% 14%, 73% 8%, 98% 1%, 100% 100%, 0% 100%)",
             }}>  
            

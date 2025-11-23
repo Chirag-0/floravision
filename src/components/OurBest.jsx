@@ -2,7 +2,7 @@ import BracketTitle from "./BracketTitle"
 
 function OurBest() {
   return (
-    <section className="bg-[#1B2316] w-full h-[150vh] md:h-[170vh] lg:h-[140vh] -mt-1 lg:py-2">
+    <section className="bg-[#1B2316] w-full h-[115vh] md:h-[170vh] lg:h-[140vh] -mt-1 lg:py-2">
       <div className="flex flex-col gap-16 items-center justify-center  lg:p-3">
         <div className="mt-40 md:mt-0 inter font-semibold">
           <BracketTitle text="Our Best O2"/>

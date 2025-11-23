@@ -30,7 +30,7 @@ function TrendyPlants() {
 
               {/* Desk Decorations */}
              
-                <div className="mt-5 flex flex-wrap md:flex-nowrap rounded-[5rem] p-8 md:p-5 bg-white/3 backdrop-blur-[17px] border  border-white/10 shadow-lg w-70 md:w-176  items-center">
+                <div className="mt-5 flex flex-col-reverse md:flex-row  flex-wrap md:flex-nowrap rounded-[5rem] p-8 md:p-5 bg-white/3 backdrop-blur-[17px] border  border-white/10 shadow-lg w-70 md:w-176  items-center">
                 <div>
                     <h4 className="text-sm font-semibold mb-2 inter">For Your Desks Decorations</h4>
                     <p className="text-sm text-wrap text-gray-400 mb-2 inter font-semibold">The greenery adds a touch of nature and serenity to my desk, making it feel more inviting and calming</p>
