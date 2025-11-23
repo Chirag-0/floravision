@@ -54,9 +54,9 @@ function PlantInfo() {
 
             <div className="-mt-20 z-100 ">
               {plant.name === 'Cactus' ? (
-                <img src={plant.img} alt={plant.name} className="object-cover h-62 w-66"/>
+                <img src={plant.img} alt={plant.name} className="object-cover h-62 w-66" loading="lazy" decoding="async"/>
               ) : (
-              <img src={plant.img} alt={plant.name} className="object-cover"/>
+              <img src={plant.img} alt={plant.name} className="object-cover" loading="lazy" decoding="async"/>
               )}
             </div>
 
@@ -80,11 +80,11 @@ function PlantInfo() {
                 aria-label="Add to cart"
                 className="w-8 h-8 p-1.5 rounded-lg border border-white/20 flex items-center justify-center text-gray-100 hover:bg-white/5 transition"
               >
-                <img src={plant.bag} alt={plant.name} />
+                <img src={plant.bag} alt={plant.name} loading="lazy" decoding="async"/>
               </button>
             </div>
           </div>
-                </div>
+            </div>
         ))}
     </div>
   )

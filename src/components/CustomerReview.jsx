@@ -18,6 +18,7 @@ function CustomerReview() {
                   src="/cust1.png"
                   alt="User"
                   className="h-12 w-12 rounded-full"
+                  loading="lazy" decoding="async"
                 />
                 <div className="flex flex-col text-white">
                   <p className="inter font-semibold text-lg">Shelly Russel</p>
@@ -46,6 +47,7 @@ function CustomerReview() {
                   src="/cust2.jpg"
                   alt="User"
                   className="h-12 w-12 rounded-full"
+                  loading="lazy" decoding="async"
                 />
                 <div className="flex flex-col text-white">
                   <p className="inter font-semibold text-lg ">Lula Rolfson</p>

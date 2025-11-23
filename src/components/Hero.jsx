@@ -50,7 +50,7 @@ function Hero() {
  
           <div className="inter flex flex-col  items-center gap-6 relative">
             <div className=" rounded-xl h-56 -mt-20 mb-4 flex items-center justify-center  absolute ">
-               <img src="/rosegold.png" alt="Featured Plant" className="h-56 w-56 object-cover rounded-xl z-30" />
+               <img src="/rosegold.png" alt="Featured Plant" loading='lazy' decoding='async' className="h-56 w-56 object-cover rounded-xl z-30" />
             </div>
              
             <div className="rounded-xl p-6 w-66 h-100 -mt-10 max-w-sm flex flex-col items-center bg-white/5 backdrop-blur-[17px] border border-white/5 shadow-lg" style={{

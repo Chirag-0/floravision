@@ -13,7 +13,7 @@ function TrendyPlants() {
 
               {/* For Your Desks */}
              <div className="flex flex-wrap md:flex-nowrap rounded-[5rem] p-8 md:p-5 bg-white/3 backdrop-blur-[17px] border border-white/10 shadow-lg w-70 md:w-176 items-center ">
-                <img src="/rosegold2.png" alt="rosegold" className='w-56 h-68 -mt-20'/>
+                <img src="/rosegold2.png" alt="rosegold" loading="lazy" decoding="async" className='w-56 h-68 -mt-20'/>
                 <div>
                     <h4 className="text-sm font-semibold mb-2 inter">For Your Desks Decorations</h4>
                     <p className="text-sm text-wrap text-gray-400 mb-2 inter font-semibold">I recently added a beautiful desk decoration plant to my workspace, and it has made such a positive difference!</p>
@@ -22,7 +22,7 @@ function TrendyPlants() {
                         <button className="text-xs mt-2 px-3 py-1 rounded-lg border transition hover:scale-105 cursor-pointer">
                       Explore
                     </button>
-                    <img src="/bag.png" alt="bag" className='w-6 h-6 mt-1 hover:scale-105 cursor-pointer'/>
+                    <img src="/bag.png" alt="bag" loading="lazy" decoding="async" className='w-6 h-6 mt-1 hover:scale-105 cursor-pointer'/>
                     </div> 
                 </div>
                 
@@ -39,10 +39,10 @@ function TrendyPlants() {
                         <button className="text-xs mt-2 px-3 py-1 rounded-lg border transition inter font-medium cursor-pointer hover:scale-105">
                       Explore
                     </button>
-                    <img src="/bag.png" alt="bag" className='w-6 h-6 mt-1 cursor-pointer hover:scale-105'/>
+                    <img src="/bag.png" alt="bag" loading="lazy" decoding="async" className='w-6 h-6 mt-1 cursor-pointer hover:scale-105'/>
                     </div> 
                 </div>
-                 <img src="/rosegold3.png" alt="rosegold" className='w-56 h-68 -mt-20'/>
+                 <img src="/rosegold3.png" alt="rosegold" loading="lazy" decoding="async" className='w-56 h-68 -mt-20'/>
               
               </div>
              
